@@ -27,14 +27,7 @@ body {
     background-position: center;
     position: relative;
   }
-  .overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.6);
-  } 
+
    .description {
     left: 50%;
     position: absolute;
@@ -44,11 +37,57 @@ body {
   }
   
   .description h1 {
-    color: #005e7a;
+    color: #ffab0f;
   }
   
   .description p {
-    color: #fff;
+    color: #047091;
     font-size: 1.3rem;
     line-height: 1.5;
+  }
+
+  .Experience {
+    left: 50%;
+    position: absolute;
+    top: 125%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .Experience h1 {
+    color: #ffab0f;
+  }
+
+  .Experience section {
+    color: #047091;
+    
+  }
+  .Experience p {
+    color: #047091;
+    font-size: 1.3rem;
+    line-height: 1.5; 
+  }
+
+  @media (max-width: 700px) {
+
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  
   }
