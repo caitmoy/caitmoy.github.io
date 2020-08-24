@@ -21,13 +21,14 @@ body {
   .navbar-collapse {
     justify-content: flex-end;
   }
+
+    /*--- Home ---*/
   .header {
-    background-image: url("C:\Users\caitl\Documents\Projects\caitmoy.github.io\background3.jpg");
+    background-image: url("background3.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
   }
-
    .description {
     left: 50%;
     position: absolute;
@@ -46,12 +47,18 @@ body {
     line-height: 1.5;
   }
 
+    /*--- Experience ---*/
   .Experience {
     left: 50%;
     position: absolute;
     top: 125%;
     transform: translate(-50%, -55%);
     text-align: center;
+    background-color: #fff3d9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
   }
   .Experience h1 {
     color: #ffab0f;
@@ -59,13 +66,68 @@ body {
 
   .Experience section {
     color: #047091;
-    
+
   }
   .Experience p {
     color: #047091;
     font-size: 1.3rem;
     line-height: 1.5; 
   }
+
+  /*--- Projects ---*/
+  .Projects {
+    left: 50%;
+    position: absolute;
+    top: 125%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    background-color: #fff3d9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+  }
+  .Projects h1 {
+    color: #ffab0f;
+  }
+
+  .Projects section {
+    color: #047091;
+
+  }
+  .Projects p {
+    color: #047091;
+    font-size: 1.3rem;
+    line-height: 1.5; 
+  }
+
+  /*--- Contact ---*/
+  .Contact {
+    left: 50%;
+    position: absolute;
+    top: 125%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    background-color: #fff3d9;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+  }
+  .Contact h1 {
+    color: #ffab0f;
+  }
+
+  .Contact section {
+    color: #047091;
+
+  }
+  .Contact p {
+    color: #047091;
+    font-size: 1.3rem;
+    line-height: 1.5; 
+  }
+    /*--- Deals with Resizing (resizing windows, viewing on mobile ---*/
 
   @media (max-width: 700px) {
 
