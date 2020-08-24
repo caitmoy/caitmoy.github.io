@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -32,9 +36,10 @@ body {
    .description {
     left: 50%;
     position: absolute;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%, -55%);
     text-align: center;
+   
   }
   
   .description h1 {
@@ -47,11 +52,11 @@ body {
     line-height: 1.5;
   }
 
-    /*--- Experience ---*/
-  .Experience {
+    /*--- Content ---*/
+  .Content {
     left: 50%;
-    position: absolute;
-    top: 125%;
+    position: relative;
+    top: 250px;
     transform: translate(-50%, -55%);
     text-align: center;
     background-color: #fff3d9;
@@ -60,82 +65,33 @@ body {
     position: relative;
 
   }
-  .Experience h1 {
+  .Content h1 {
     color: #ffab0f;
   }
 
-  .Experience section {
+  .Content section {
     color: #047091;
-
-  }
-  .Experience p {
-    color: #047091;
-    font-size: 1.3rem;
-    line-height: 1.5; 
-  }
-
-  /*--- Projects ---*/
-  .Projects {
     left: 50%;
-    position: absolute;
-    top: 125%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-    background-color: #fff3d9;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    text-align: 40%;
+
 
   }
-  .Projects h1 {
-    color: #ffab0f;
-  }
-
-  .Projects section {
-    color: #047091;
-
-  }
-  .Projects p {
+  .Content p {
     color: #047091;
     font-size: 1.3rem;
     line-height: 1.5; 
   }
 
-  /*--- Contact ---*/
-  .Contact {
-    left: 50%;
-    position: absolute;
-    top: 125%;
-    transform: translate(-50%, -55%);
-    text-align: center;
-    background-color: #fff3d9;
-    background-size: cover;
-    background-position: center;
-    position: relative;
+  
+    /*--- Deals with Resizing (resizing windows, viewing on mobile) ---*/
 
-  }
-  .Contact h1 {
-    color: #ffab0f;
-  }
-
-  .Contact section {
-    color: #047091;
-
-  }
-  .Contact p {
-    color: #047091;
-    font-size: 1.3rem;
-    line-height: 1.5; 
-  }
-    /*--- Deals with Resizing (resizing windows, viewing on mobile ---*/
-
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
 
     .description {
       left: 0;
       padding: 0 15px;
       position: absolute;
-      top: 10%;
+      top: 20%;
       transform: none;
       text-align: center;
     }
