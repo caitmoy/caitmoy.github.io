@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
@@ -52,8 +53,9 @@ body {
     line-height: 1.5;
   }
 
-    /*--- Content ---*/
-  .Content {
+    /*--- Content Sections ---*/
+
+    .Content {
     left: 50%;
     position: relative;
     top: 250px;
@@ -63,9 +65,8 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-
   }
-  .Experience h1 {
+  .Content h1 {
     color: #ffab0f;
   }
 
