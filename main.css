@@ -82,7 +82,16 @@ body {
     line-height: 1.5; 
   }
 
-  
+    /* email button */
+  /* .mail-btn {
+    padding: 10px;
+  } */
+  /* github button */
+  .github-btn {
+    padding-right: 17px;
+    padding-left: 10px;
+  }
+
     /*--- Deals with Resizing (resizing windows, viewing on mobile) ---*/
 
   @media (max-width: 800px) {
