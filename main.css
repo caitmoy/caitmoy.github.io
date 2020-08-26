@@ -34,6 +34,7 @@ body {
     background-position: center;
     position: relative;
     padding-top: 20%;
+    margin-bottom: 0;
   }
    .description {
     left: 50%;
@@ -41,6 +42,7 @@ body {
     top: 50%;
     transform: translate(-50%, -55%);
     text-align: center;
+    margin-bottom: 0;
    
   }
   
@@ -52,6 +54,7 @@ body {
     color: #047091;
     font-size: 1.3rem;
     line-height: 1.5;
+    margin-bottom: 0;
   }
 
     /*--- Content Sections ---*/
@@ -66,22 +69,26 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-top: 0;
   }
   .Content h1 {
     color: #ffab0f;
+    margin-top: 0;
   }
 
   .Content section {
     color: #047091;
     left: 50%;
     text-align: 40%;
-
+    margin-top: 0;
 
   }
   .Content p {
     color: #047091;
     font-size: 1.3rem;
-    line-height: 1.5; 
+    line-height: 1.5;
+    padding-bottom: 0;
+    margin-bottom: 1px; 
   }
 
   /*social button links*/
