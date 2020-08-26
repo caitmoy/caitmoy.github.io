@@ -1,12 +1,13 @@
 html {
   scroll-behavior: smooth;
-  height: 100%;
+  /* height: 100%; */
 }
 
 body {
-    padding: 0;
-    margin: 0;
     background: #f2f6e9;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0px;
   }
   /*--- navigation bar ---*/
   .navbar {
@@ -33,8 +34,12 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    padding-top: 20%;
-    margin-bottom: 0;
+    /* width: 100vw; 
+    height: 100vh !important; 
+    z-index: 1;  */
+    max-width: 100%;  
+    grid-column: 1/3;
+    grid-row: 1;
   }
    .description {
     left: 50%;
@@ -42,19 +47,17 @@ body {
     top: 50%;
     transform: translate(-50%, -55%);
     text-align: center;
-    margin-bottom: 0;
-   
   }
   
   .description h1 {
     color: #ffab0f;
+    padding-top: 50px;
   }
   
   .description p {
     color: #047091;
     font-size: 1.3rem;
     line-height: 1.5;
-    margin-bottom: 0;
   }
 
     /*--- Content Sections ---*/
@@ -69,11 +72,11 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-top: 0;
+    /* padding-top: 20%; */
+    margin-top:10%;
   }
   .Content h1 {
     color: #ffab0f;
-    margin-top: 0;
   }
 
   .Content section {
@@ -87,8 +90,11 @@ body {
     color: #047091;
     font-size: 1.3rem;
     line-height: 1.5;
-    padding-bottom: 0;
-    /* margin-bottom: 1px;  */
+  }
+   .Content p1 {
+    color: #047091;
+    font-size: .7 rem;
+    line-height: 1.5;
   }
 
   /*social button links*/
@@ -103,11 +109,11 @@ body {
 
     /*--- Deals with Resizing (resizing windows, viewing on mobile) ---*/
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
 
     .description {
       left: 0;
-      padding: 0 15px;
+      padding: 15px;
       position: absolute;
       top: 20%;
       transform: none;
