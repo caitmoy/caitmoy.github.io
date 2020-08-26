@@ -83,6 +83,10 @@ body {
     line-height: 1.5; 
   }
 
+  /*social button links*/
+  .socials {
+    padding-top: 20px;
+  }
   /* github button */
   .github-btn {
     padding-right: 17px;
