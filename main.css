@@ -5,11 +5,8 @@ html {
 
 body {
     background: #f2f6e9;
-    /* display: grid;
-    grid-template-rows: repeat(4);
-    grid-template-columns: repeat(2);
-    grid-gap: 5px; */
   }
+
   /*--- navigation bar ---*/
   .navbar {
     background:#047091;
@@ -39,8 +36,8 @@ body {
     height: 100vh !important; 
     z-index: 1; 
     max-width: 100%;  
-    /* border: 1px solid blue; */
   }
+
    .description {
     left: 50%;
     position: absolute;
@@ -52,7 +49,6 @@ body {
   
   .description h1 {
     color: #ffab0f;
-    /* padding-top: 20px; */
   }
   
   .description p {
@@ -61,57 +57,124 @@ body {
     line-height: 1.5;
   }
 
-    /*--- Content Sections ---*/
+    /*--- All Content Sections ---*/
 
+    /* All section containers (as one) */
     .Content {
-    /* left: 50%; */
     position: relative;
-    /* top: 250px; */
-    /* transform: translate(-50%, -55%); */
     text-align: center;
     background-color: #fff3d9;
     background-size: cover;
     background-position: center;
     position: relative;
-    /* padding-top: 20%; */
-    /* margin-top: 0; */
-    /* margin-top:300px; */
-    /* grid-column: 1/-1;
-    grid-row: 2; */
-    /* border: 1px solid red; */
-  }
-  .Content h1 {
-    color: #ffab0f;
-  }
 
+  }
+  /* all sections (separately) */
   .Content section {
     color: #047091;
     left: 50%;
     text-align: 40%;
-    /* margin-top: 0; */
 
   }
-  .Content p {
+  /* All section headings (Experience, Projects etc.) */
+  .Content h1 {
+    color: #ffab0f;
+  }
+
+  /* All section subheadings */
+  .Content h2 {
     color: #047091;
     font-size: 1.3rem;
     line-height: 1.5;
   }
+
+  /* All section text */
    .Content p1 {
     color: #047091;
     font-size: .7 rem;
     line-height: 1.5;
+
   }
 
+  /* Experience section */
   #Experience {
-  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
   }
-  #Projects {
-    
+  /* Experience columns: Product Co., Mazzo, JP Morgan */
+   /* Heading: My Experience */
+  #Experience h1 { 
+    grid-row: 1;
+    grid-column: 1/-1;
+  }
+  
+  #Experience1 {
+    grid-column: 1;
+  }
+  #Experience2 {
+    grid-column: 2;
+  }
+  #Experience3 {
+    grid-column: 3;
   }
 
-  #Fun {
-   
+  /* Project section */
+    #Projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+  
+    }
+  /* Project columns: This website, knock-knock joke */
+   /* Heading: My Projects */
+
+  #Projects h1 { 
+    grid-row: 1;
+    grid-column: 1/-1;
   }
+  
+  #Project1 {
+    grid-column: 1;
+  }
+  #Project2 {
+    grid-column: 2;
+  }
+  #Project3 {
+    grid-column: 3;
+  } 
+
+  /* Fun section */
+  #Fun {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+  }
+/* Fun columns: Guitar, writing */
+ /* Heading: Fun! */
+
+#Fun h1 { 
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+
+#Fun1 {
+  grid-column: 1;
+}
+#Fun2 {
+  grid-column: 2;
+}
+#Fun3 {
+  grid-column: 3;
+} 
+
+
+
   /*social button links*/
   .socials {
     padding-top: 20px;
