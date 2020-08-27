@@ -277,6 +277,24 @@ body {
 
 } 
 
+ /* Connect section */
+
+ #Connect {
+  border: 5px solid#047091;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 500px;
+
+ }
+
+#Connect h3{
+  /* background: #047091;
+  border: 5px solid#047091;
+  border-radius: 10px; */
+  font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+  font-size: 3rem;
+  color: #047091;
+}
 
 
   /*social button links*/
