@@ -6,7 +6,6 @@ html {
 body {
     /* background: #fff3d9; */
     /* background-image: linear-gradient(#fff3d9, #e8fdfffa,rgb(219, 236, 255)); */
-    padding-top: 0;
     margin: 0;
   }
 
@@ -109,6 +108,7 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
+    padding: 10px;
 
   }
   /* all sections (separately) */
@@ -164,6 +164,8 @@ body {
     border: 7px solid#94c4ec;
     border-radius: 3px;
     padding: 10px;
+    margin: 2px;
+
   }
   #Experience2 {
     /* grid-column: 2; */
@@ -171,6 +173,7 @@ body {
     border: 7px solid#53acc7;
     border-radius: 3px;
     padding: 10px;
+    margin: 2px;
 
   }
   
@@ -180,6 +183,7 @@ body {
     border: 7px solid#2185a3;
     border-radius: 3px;
     padding: 10px;
+    margin: 2px;
 
   }
 
@@ -205,6 +209,7 @@ body {
     border: 7px solid#94c4ec;
     border-radius: 3px;
     padding: 10px;
+    margin: 2px;
 
   }
   #Project2 {
@@ -213,6 +218,7 @@ body {
     border: 7px solid#53acc7;
     border-radius: 3px;
     padding: 10px;
+    margin: 2px;
 
   }
   #Project3 {
@@ -221,6 +227,7 @@ body {
     border: 7px solid#2185a3;
     border-radius: 3px;
     padding: 10px;
+    margin: 2px;
 
   } 
 
