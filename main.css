@@ -189,6 +189,7 @@ body {
     margin: 2px;
 
   }
+  
 
   /* Project section */
     #Projects {
@@ -279,6 +280,13 @@ body {
 
 } 
 
+#Fun li {
+  margin-left: 0px;
+}
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
  /* Connect section */
 
  #Connect {
