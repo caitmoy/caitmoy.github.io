@@ -4,12 +4,16 @@ html {
 }
 
 body {
-    background: #f2f6e9;
+    /* background: #fff3d9; */
+    /* background-image: linear-gradient(#fff3d9, #e8fdfffa,rgb(219, 236, 255)); */
+    padding: 0;
+    margin: 0;
   }
 
   /*--- navigation bar ---*/
   .navbar {
     background:#047091;
+
   }
   .nav-link,
   .navbar-brand {
@@ -17,10 +21,40 @@ body {
     cursor: pointer;
   }
   .nav-link {
-    margin-right: 1em !important;
+    /* margin-right: 1em !important; */
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
   }
+
   .nav-link:hover {
-    color: #000;
+    opacity: 1;
+    color: white;
+  }
+  
+  .nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: white;
+  }
+  
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 5px;
+
+  }
+  
+  .nav-link-ltr:hover::before {
+    width: 100%;
   }
   .navbar-collapse {
     justify-content: flex-end;
@@ -44,14 +78,18 @@ body {
     top: 50%;
     transform: translate(-50%, -55%);
     text-align: center;
-
+    padding-top: 120px;
   }
   
   .description h1 {
-    color: #ffab0f;
-    /* padding-top: 100px; */
-    /* margin-top: 10%; */
-    
+    margin-left: 0;
+    color: #ffaa2b;
+    border: 5px solid#047091;
+    border-radius: 10px;
+    /* background: #fcf9ec; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
   }
   
   .description p {
@@ -84,7 +122,8 @@ body {
   }
   /* All section headings (Experience, Projects etc.) */
   .Content h1 {
-    color: #ffab0f;
+    color: #a4bbeb;
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
   }
 
   /* All section subheadings */
@@ -104,6 +143,7 @@ body {
 
   /* Experience section */
   #Experience {
+    scroll-padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -120,13 +160,13 @@ body {
   #Experience1 {
     grid-column: 1;
     background-color:  #fff7e8;
-    border: 7px solid#2185a3;
+    border: 7px solid#94c4ec;
     border-radius: 3px;
   }
   #Experience2 {
     grid-column: 2;
     background-color: #fff7e8;
-    border: 7px solid#2185a3;
+    border: 7px solid#53acc7;
     border-radius: 3px;
   }
   
@@ -135,7 +175,6 @@ body {
     background-color: #fff7e8;
     border: 7px solid#2185a3;
     border-radius: 3px;
-
   }
 
   /* Project section */
@@ -157,7 +196,7 @@ body {
   #Project1 {
     grid-column: 1;
     background-color:  #fff7e8;
-    border: 7px solid#53acc7;
+    border: 7px solid#94c4ec;
     border-radius: 3px;
   }
   #Project2 {
@@ -169,7 +208,7 @@ body {
   #Project3 {
     grid-column: 3;
     background-color: #fff7e8;
-    border: 7px solid#53acc7;
+    border: 7px solid#2185a3;
     border-radius: 3px;
   } 
 
@@ -198,13 +237,13 @@ body {
 #Fun2 {
   grid-column: 2;
   background-color: #fff7e8;
-  border: 7px solid#94c4ec;
+  border: 7px solid#53acc7;
   border-radius: 3px;
 }
 #Fun3 {
   grid-column: 3;
   background-color: #fff7e8;
-  border: 7px solid#94c4ec;
+  border: 7px solid#2185a3;
   border-radius: 3px;
 } 
 
@@ -220,6 +259,12 @@ body {
     padding-left: 10px;
   }
 
+
+  #footer {
+    background: #fff3d9;
+    padding-top: 50px;
+    text-align: center;
+  }
     /*--- Deals with Resizing (resizing windows, viewing on mobile) ---*/
 
   @media (max-width: 900px) {
