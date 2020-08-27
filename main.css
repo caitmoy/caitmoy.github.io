@@ -6,13 +6,14 @@ html {
 body {
     /* background: #fff3d9; */
     /* background-image: linear-gradient(#fff3d9, #e8fdfffa,rgb(219, 236, 255)); */
-    padding: 0;
+    padding-top: 0;
     margin: 0;
   }
 
   /*--- navigation bar ---*/
   .navbar {
     background:#047091;
+    box-shadow: 0px -20px 5px 20px #333333;
 
   }
   .nav-link,
@@ -144,107 +145,129 @@ body {
   /* Experience section */
   #Experience {
     scroll-padding-top: 50px;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(50px, auto);
+    grid-auto-rows: minmax(50px, auto); */
 
   }
   /* Experience columns: Product Co., Mazzo, JP Morgan */
    /* Heading: My Experience */
   #Experience h1 { 
-    grid-row: 1;
-    grid-column: 1/-1;
+    /* grid-row: 1;
+    grid-column: 1/-1; */
   }
   
   #Experience1 {
-    grid-column: 1;
+    /* grid-column: 1; */
     background-color:  #fff7e8;
     border: 7px solid#94c4ec;
     border-radius: 3px;
+    padding: 10px;
   }
   #Experience2 {
-    grid-column: 2;
+    /* grid-column: 2; */
     background-color: #fff7e8;
     border: 7px solid#53acc7;
     border-radius: 3px;
+    padding: 10px;
+
   }
   
   #Experience3 {
-    grid-column: 3;
+    /* grid-column: 3; */
     background-color: #fff7e8;
     border: 7px solid#2185a3;
     border-radius: 3px;
+    padding: 10px;
+
   }
 
   /* Project section */
     #Projects {
-      display: grid;
+      /* display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
-      grid-auto-rows: minmax(50px, auto);
+      grid-auto-rows: minmax(50px, auto); */
   
     }
   /* Project columns: This website, knock-knock joke */
    /* Heading: My Projects */
 
   #Projects h1 { 
-    grid-row: 1;
-    grid-column: 1/-1;
+    /* grid-row: 1;
+    grid-column: 1/-1; */
   }
   
   #Project1 {
-    grid-column: 1;
+    /* grid-column: 1; */
     background-color:  #fff7e8;
     border: 7px solid#94c4ec;
     border-radius: 3px;
+    padding: 10px;
+
   }
   #Project2 {
-    grid-column: 2;
+    /* grid-column: 2; */
     background-color: #fff7e8;
     border: 7px solid#53acc7;
     border-radius: 3px;
+    padding: 10px;
+
   }
   #Project3 {
-    grid-column: 3;
+    /* grid-column: 3; */
     background-color: #fff7e8;
     border: 7px solid#2185a3;
     border-radius: 3px;
+    padding: 10px;
+
   } 
 
   /* Fun section */
   #Fun {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(50px, auto);
+    grid-auto-rows: minmax(50px, auto); */
 
   }
 /* Fun columns: Guitar, writing */
  /* Heading: Fun! */
 
 #Fun h1 { 
-  grid-row: 1;
-  grid-column: 1/-1;
+  /* grid-row: 1;
+  grid-column: 1/-1; */
 }
 
 #Fun1 {
-  grid-column: 1;
+  /* grid-column: 1; */
   background-color:  #fff7e8;
   border: 7px solid#94c4ec;
   border-radius: 3px;
+  padding: 10px;
+  margin: 2px;
+
 }
 #Fun2 {
-  grid-column: 2;
+  /* grid-column: 2; */
   background-color: #fff7e8;
   border: 7px solid#53acc7;
   border-radius: 3px;
+  padding: 10px;
+  margin: 2px;
+
+
 }
 #Fun3 {
-  grid-column: 3;
+  /* grid-column: 3; */
   background-color: #fff7e8;
   border: 7px solid#2185a3;
   border-radius: 3px;
+  padding: 10px;
+  margin: 2px;
+
+
 } 
 
 
