@@ -276,16 +276,11 @@ body {
   border-radius: 3px;
   padding: 10px;
   margin: 2px;
-
-
 } 
 
-#Fun li {
-  margin-left: 0px;
-}
 ul {
-  text-align: center;
   list-style-position: inside;
+  padding: 0;
 }
  /* Connect section */
 
