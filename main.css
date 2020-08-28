@@ -280,6 +280,7 @@ body {
 
 ul {
   list-style-position: inside;
+  margin-left:0;
   padding: 0;
 }
  /* Connect section */
