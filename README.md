@@ -1,6 +1,6 @@
 # My Personal Website
 August 2020
-caitmoy.github.io
+[caitmoy.github.io](http://caitmoy.github.io)
 
 Created using Javascript, HTML, CSS, Bootstrap
 
